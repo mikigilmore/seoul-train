@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8">
+    <title>Seoul Train | Korean &amp; Soul Food Fusion</title>
+
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <header id="home">
+        <a href="#home"><img src="img/logo.svg" alt="Seoul Train"></a>
+    </header>
+
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#aboutanchor">About</a>
+        <a href="#menuanchor">Menu</a>
+        <a href="#contactanchor">Contact</a>
+    </nav>
+
+    <main>
+        <!-- Slideshow container -->
+
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="img/hero1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/hero2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/hero3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/hero4.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <!-- About -->
+
+        <article id="wholeabout">
+            <section class="module" id="comforting">
+                <h1><span id="aboutanchor"></span>A comforting concept</h1>
+                <img src="img/icons/truck.svg" alt="Truck" class="myicon">
+                <p>The bright energizing flavors of Korean barbecue introduce the slow-cooked comfort of traditional soul food. In a time where gaps are closing and our lives meld together, we at Seoul Train believe that food is not only nourishment for our bodies but for our souls as well. And a well-fed soul is a loving one indeed. Come catch our food truck in DC and experience it for yourself!
+                </p>
+            </section>
+
+            <section class="module" id="madewithlove">
+                <h1>Made with love</h1>
+                <img src="img/icons/heart.svg" alt="Heart" class="myicon">
+                <p>Born in Seoul, South Korea and raised with the southern values of her Mississippi-born father, Chef Jiwoo Lewis founded Seoul Train in 2008 to show the world that combining flavors from opposite ends of the globe can reveal new avenues of flavor. Two years prior Chef Lewis co-founded Miss Sippy Brews and BBQ with world-renowned restaurateur Gaultier Barros.
+                </p>
+            </section>
+        </article>
+
+        <!-- Menu -->
+
+        <article id="wholemenu">
+            <div class="module" id="menuhero"></div>
+
+            <section class="module" id="menu">
+                <h1><span id="menuanchor"></span> Menu</h1>
+                <p>Combo: One meat, two sides, and a drink</p>
+
+                <section id="menuitems">
+
+                    <section class="menuitem">
+                        <img src="img/icons/meats.svg" alt="Meat" class="myicon">
+                        <h2>Meats</h2>
+                        <ul>
+                            <li>Korean fried chicken breast</li>
+                            <li>Gochujang beef tips</li>
+                            <li>Braised ham hocks</li>
+                        </ul>
+                    </section>
+
+                    <section class="menuitem">
+                        <img src="img/icons/sides.svg" alt="Sides" class="myicon">
+                        <h2>Sides</h2>
+                        <ul>
+                            <li>Gamjatang collard greens</li>
+                            <li>Scallion pancakes</li>
+                            <li>Grilled corn</li>
+                            <li>Cornbread</li>
+                            <li>White rice</li>
+                            <li>Gold rice</li>
+                            <li>Cole slaw</li>
+                            <li>Kimchi</li>
+                        </ul>
+                    </section>
+
+                    <section class="menuitem">
+                        <img src="img/icons/drinks.svg" alt="Drinks" class="myicon">
+                        <h2>Drinks</h2>
+                        <ul>
+                            <li>Lychee iced tea</li>
+                            <li>Chilsung cider</li>
+                            <li>Peach juice</li>
+                            <li>Lemonade</li>
+                            <li>Coca-Cola</li>
+                            <li>Corn tea</li>
+                            <li>Water</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </article>
+
+        <!-- Contact -->
+
+        <article id="wholecontact">
+            <div class="module" id="contacthero"></div>
+
+            <section class="module" id="contact">
+                <h1><span id="contactanchor"></span>Contact us</h1>
+
+                <section id="contactitems">
+                    <section id="contactlocation">
+                        <p>Washington, DC</p>
+                        <ul>
+                            <li>Monday to Saturday</li>
+                            <li>12 PM to 3 PM</li>
+                            <li>5 PM to 9 PM</li>
+                        </ul>
+                        <p>202-555-0114</p>
+                    </section>
+
+                    <section id="contactform">
+                        <p>Reach out and we'll be here to listen.</p>
+                        <p class="tiny">Required areas are marked with an asterisk (*).</p>
+
+                        <form action="#" method="post">
+                            <input type="text" name="myName" id="myName" placeholder="Name*" required>
+
+                            <input type="email" name="myEmail" id="myEmail" placeholder="Email*" required>
+
+                            <input type="tel" name="myPhone" id="myPhone" placeholder="Phone">
+
+                            <textarea name="myComments" id="myComments" cols="30" rows="6" placeholder="Comments*" required></textarea>
+
+                            <input type="submit" value="Send">
+                        </form>
+                    </section>
+                </section>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <section class="socialmedia">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a>
+        </section>
+
+        <ul class="tiny">
+            <li>&copy; 2018 Miki Gilmore &amp; Andrew Garcia. All rights reserved.</li>
+
+            <li>Seoul Train is a fictional business created for personal uses only.</li>
+
+            <li>Photos by <a href="https://pixabay.com/">Pixabay</a> and <a href="https://unsplash.com/">Unsplash</a> licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a></li>
+
+            <li>Social media icons by <a href="https://fontawesome.com/">Font Awesome</a> licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC by 4.0</a></li>
+        </ul>
+    </footer>
+
+    <!-- Slideshow -->
+    <link rel="stylesheet" href="slideshow/slideshow.css">
+    <script src="slideshow/slideshow.js"></script>
+
+    <!-- Sticky navigation -->
+    <script src="stickynav/stickynav.js"></script>
+
+    <!-- Smooth scroll -->
+    <script src="smooth-scroll-master/dist/smooth-scroll.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+
+</html>
